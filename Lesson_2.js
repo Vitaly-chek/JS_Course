@@ -108,9 +108,40 @@ function workshop (day)
         }
         else
         {
-            console.log("Error!!");
+            return false;
         }
+    }
+    else
+    {
+        console.log("Error day!!");
+        return false;
     }
 }
 
-console.log(workshop(""))
+
+function workhours (hour)
+{
+    if (hour < 18 && hour >=8)
+    {
+        return true;
+    }
+    else if (hour < 0 || hour >24)
+    {
+        console.log("Error hour!!");
+        return false;
+    }
+
+}
+
+
+let day = "Monday";
+let hour = 23;
+
+if (workshop(day) && workhours(hour))
+{
+    console.log("Open!!!");
+}
+else
+{
+    console.log("Close!!!");
+}
