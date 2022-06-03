@@ -130,7 +130,6 @@ function workhours (hour)
         console.log("Error hour!!");
         return false;
     }
-
 }
 
 
