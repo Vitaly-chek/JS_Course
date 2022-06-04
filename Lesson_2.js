@@ -1,100 +1,7 @@
-// let hour = 8;
-// let day = 4;
-
-// if (hour < 0 || hour >24)
-// {
-//     console.log("Error");
-// }
-// else if (hour < 18 && hour >=8)
-// {
-//     console.log("Open");
-// }
-// else if (hour == "Sundey" || hour == "Satuday")
-// {
-//     console.log("Free day");
-// }
-// else 
-//     console.log("Close") ;
-
-                        //my code
-
-// function workshop (day)
-// {
-//     if (typeof(day) == "string")
-//     {
-//         if (day == 'Sat' || day == 'Sun')
-//         {
-//             console.log("Close")
-//         }
-//         else
-//         {
-//             workhour(hour)
-//         }
-//     }
-//     else
-//     {
-//         console.log("Error")
-//     }
-// }
-
-
-// function workhour (hour)
-// {
-//     if (typeof(hour) == "number")
-//     {
-//         if (hour < 8 || hour >= 18)
-//         {
-//             console.log("Close");
-//         }
-//         else
-//         {
-//             console.log("Open");
-//         }
-//     }
-//     else
-//     {
-//         console.log("Error")
-//     }
-
-// }
-
-                    // exit my code
-
-
-// for (i=0; i=20; i++)
-// {
-//     i++;
-//     console.log(i);
-// }
-
-// if (1 || 0 || 0)
-// {
-//     console.log("Hello") 
-// }
-
-             //lesson 
-
-// let day_titel = "Sunday1";     
-// let ww_days = ['Monday', 'Tueesday', 'Wednesday', 'Thursday', 'Fridey', 'Saturday', 'Sunday']
-
-// if (!ww_days.includes(day_titel))
-// {
-//     console.log("Error")
-// }
-// else
-// {
-
-// }
-
-            //end
-
-
-
-
 function workshop (day)
 {
-    let h_days = ['Saturday', 'Sunday']
     let w_days = ['Monday', 'Tueesday', 'Wednesday', 'Thursday', 'Fridey']
+    let h_days = ['Saturday', 'Sunday']
 
     if (typeof(day) == "string")
     {
@@ -144,3 +51,19 @@ else
 {
     console.log("Close!!!");
 }
+
+// let test_day = "Sunday";
+
+// switch (test_day)
+// {
+//     case "Suturday":
+//         console.log("Cool! Suturday");
+//         break;
+//     case "Monday":
+//         console.log("Cool! Monday");
+//         break;
+//     case "Sunday":
+//         console.log("Cool! Sunday");
+//         break;
+//     default: console.log("Default.");
+// }
